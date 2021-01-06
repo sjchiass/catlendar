@@ -26,6 +26,6 @@ with open("./calendar.html", "w") as f:
 
         data_uri = base64.b64encode(buffer.read()).decode('ascii')
 
-        f.write(f"<img src='data:image/png;base64,{data_uri}'>\n")
+        f.write(f"<img src='data:image/png;base64,{data_uri}'><hr>\n")
 
     f.write("</body>\n</html>\n")
