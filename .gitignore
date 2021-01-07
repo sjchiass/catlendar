@@ -1,3 +1,4 @@
 *.png
 *.ipynb
 *.html
+__pycache__/
